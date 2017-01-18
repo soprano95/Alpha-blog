@@ -44,6 +44,10 @@ body {
   background-color: black;
 }
 
+.btn btn-xs{
+  color: #eaeaea;
+}
+
 .article-actions{
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
@@ -51,6 +55,18 @@ body {
 
 .description{
   margin-top: 0;
+}
+
+.article-title{
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-bottom: 15px;
+}
+
+.article-body{
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
  footer{
