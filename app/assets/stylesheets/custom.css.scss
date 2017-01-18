@@ -1,6 +1,8 @@
 $navbar-default-bg: black;
 
-
+body {
+  padding-top: 50px;
+}
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -42,6 +44,15 @@ $navbar-default-bg: black;
   background-color: black;
 }
 
+.article-actions{
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description{
+  margin-top: 0;
+}
+
  footer{
   margin-top: 45px;
   padding-top: 5px;
@@ -59,10 +70,11 @@ $navbar-default-bg: black;
  footer ul {
    float: right;
    list-style: none;
+   margin-top: 0;
  }
 
  footer ul li{
    float: left;
+  margin-top: 0;
 
-   padding-top: 0px;
  }
